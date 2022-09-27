@@ -99,12 +99,21 @@ header .container{
 .mailto-link,
 .contact-link{
     color: var(--text-color);
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 .mailto-link:hover,
 .mailto-link:focus,
 .contact-link:hover,
 .contact-link:focus{
     color: var(--accent-color);
+}
+.mailto-link:hover svg,
+.mailto-link:focus svg,
+.contact-link:hover svg,
+.contact-link:focus svg{
+    fill: var(--accent-color);
 }
 
 /* Герой */
@@ -114,6 +123,7 @@ header .container{
     text-align: center; 
     padding-top: 200px; 
     padding-bottom: 200px;
+    background-color: var(--praymory-text-color);
 }
 .hero-title{
     color: var(--secondary-text-color);
@@ -153,9 +163,14 @@ header .container{
     display: flex;
     gap: 30px;
 }
-.section-item{
+
+ /*.icon{
     width: 270px;
-}
+    height: 120px;
+    display: block;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+}*/
 
 .section-title{
     position: absolute;
@@ -229,9 +244,13 @@ header .container{
 }
 .img{
     display: block;
+    display: contents;
 }
 .team-item{
     width: 270px;
+    display: block;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 .team-item-title{
     color: var(--praymory-text-color);
@@ -242,17 +261,34 @@ header .container{
     text-align: center; 
     margin-bottom: 10px;  
 }
-.team-text{
+.team-item-text{
     color: var(--text-color);
     font-size: 16px;
     font-weight: 400;
     line-height: 1.2;
     letter-spacing: 0.03em;
     text-align: center;
+    margin-bottom: 16px;
 }
 .name{
+    background-color:#FFFFFF ;
     padding-top: 30px;
     padding-bottom: 30px;
+    display: block;
+    
+}
+.team-item-social{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.team-icon{
+    width: 44px;
+    height: 44px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 /* Footer */
