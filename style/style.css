@@ -148,6 +148,8 @@ header .container{
     text-decoration: none;
     color: var(--secondary-text-color);
     background-color: #2196F3;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .hero-btn:hover,
 .hero-btn:focus{
@@ -304,13 +306,51 @@ header .container{
     fill: var(--secondary-text-color);
 }
 
-
+/*Clients*/
+.clients{
+    background: var(--secondary-text-color);
+    padding-top: 40px;
+    padding-bottom: 94px;
+}
+.client-titel{
+    color: var(--praymory-text-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+}
+.client-list{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.client-icon{
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    display: flex;
+    justify-content: center;
+}
+.client-icon{
+    fill: #AFB1B8;
+}
+.client-icon:hover svg,
+.client-icon:focus svg{
+    fill: var(--accent-color);
+}
+.client-icon:hover{
+ border: 1px solid var(--accent-color) ;
+}
 /* Footer */
 .footer{
    background-color: #2f303a; 
    padding-top: 60px;
    padding-bottom: 60px;
-   display: flex;  
+   display: flex; 
+   align-items: baseline; 
 }
 .footer-logo{
     display: flex;
@@ -341,12 +381,11 @@ header .container{
 .footer-contact{
     color: rgb(255, 255, 255, 0.6)
 } 
-.second-container{
+.footer-social-list{
     display: flex;
-    margin-left: 70px;
-    align-items: baseline;
+    justify-content: center;
 }
-.second-title{
+.social-title{
     font-size: 14px;
     font-weight: 700;
     line-height: 1.1;
@@ -354,10 +393,6 @@ header .container{
     font-style: normal;
     text-transform: uppercase;
     color: var(--secondary-text-color);
-    margin-bottom: 20px;
-}
-.second-list{
-    display: flex;
 }
 .footer-icon {
     width: 44px;
@@ -448,6 +483,13 @@ header .container{
     display: flex;
     flex-wrap: wrap;
     gap: 30px; 
+}
+.project-item:hover,
+.project-item:focus{
+    box-shadow:0px 1px 1px rgba(0, 0, 0, 0.12),
+        0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16); 
+
 }
 .img {
     display: block;
