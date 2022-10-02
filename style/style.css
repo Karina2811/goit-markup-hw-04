@@ -109,6 +109,10 @@ header .container{
 .contact-link:focus{
     color: var(--accent-color);
 }
+.mailto-link,
+.contact-link{
+    fill: var(--text-color);
+}
 .mailto-link:hover svg,
 .mailto-link:focus svg,
 .contact-link:hover svg,
@@ -123,7 +127,6 @@ header .container{
     text-align: center; 
     padding-top: 200px; 
     padding-bottom: 200px;
-    background-color: var(--praymory-text-color);
 }
 .hero-title{
     color: var(--secondary-text-color);
@@ -248,7 +251,6 @@ header .container{
 }
 .img{
     display: block;
-    display: contents;
 }
 .team-item{
     width: 270px;
@@ -287,13 +289,15 @@ header .container{
     justify-content: center;
 }
 .team-icon{
-    width: 44px;
-    height: 44px;
+    width: 45px;
+    height: 45px;
     background: #FFFFFF;
     border-radius: 50%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
+
 .team-icon:hover,
 .team-icon:focus{
     background-color: var(--accent-color);
@@ -309,7 +313,7 @@ header .container{
 /*Clients*/
 .clients{
     background: var(--secondary-text-color);
-    padding-top: 40px;
+    padding-top: 94px;
     padding-bottom: 94px;
 }
 .client-titel{
@@ -333,6 +337,7 @@ header .container{
     border: 1px solid #AFB1B8;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .client-icon{
     fill: #AFB1B8;
@@ -409,7 +414,10 @@ header .container{
     border-radius: 50%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-right: 10px;
 }
+
 .footer-icon{
     fill: var(--secondary-text-color);
 }
@@ -466,12 +474,12 @@ header .container{
     border: none;
     padding: 6px 22px; 
     min-width: 125px;
-    
 }
 .project-btn:hover,
 .project-btn:focus{
     background-color: #2196F3;
     color: var(--secondary-text-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .project-btn-first{
     display: inline-block;
@@ -492,12 +500,11 @@ header .container{
     flex-wrap: wrap;
     gap: 30px; 
 }
-.project-item:hover,
-.project-item:focus{
+.project-link:hover,
+.project-link:focus{
     box-shadow:0px 1px 1px rgba(0, 0, 0, 0.12),
         0px 4px 4px rgba(0, 0, 0, 0.06),
         1px 4px 6px rgba(0, 0, 0, 0.16); 
-
 }
 .img {
     display: block;
