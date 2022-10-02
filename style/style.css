@@ -56,13 +56,10 @@ header .container{
 .logo-first{
     color: var(--accent-color);
 }
-
 .site-nav{
     display: flex;
     margin-left: 93px;
 }
-
-
 .site-nav .item:not( :last-child){
     margin-right: 50px;
 }
@@ -121,7 +118,6 @@ header .container{
 }
 
 /* Герой */
-
 .hero{
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../images/imghero.jpg); 
     text-align: center; 
@@ -139,7 +135,6 @@ header .container{
     max-width: 700px; 
     margin: 0 auto 30px; 
 }
-
 .hero-btn{
     border: none;
     outline: none;
@@ -160,26 +155,7 @@ header .container{
 }
 
 /*  Особливості */
-.section{
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-.section-list{
-    display: flex;
-    gap: 30px;
-}
-
- .benefits-icon{
-    display: flex;
-    width: 270px;
-    height: 120px;
-    align-items: center;
-    justify-content: center;
-    background-color: #F5F4FA;
-    margin-bottom: 30px;
-}
-
-.section-title{
+.section-title {
     position: absolute;
     white-space: nowrap;
     width: 1px;
@@ -190,6 +166,23 @@ header .container{
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
+}
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.section-list{
+    display: flex;
+    gap: 30px;
+}
+.benefits-icon{
+    display: flex;
+    width: 270px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
 }
 .section-item-title{
     color: var(--praymory-text-color);
@@ -212,7 +205,6 @@ header .container{
 .work{
     padding-bottom: 94px;
 }
-
 .work-title{
     color: var(--praymory-text-color);
     font-size: 36px;
@@ -281,7 +273,6 @@ header .container{
     padding-top: 30px;
     padding-bottom: 30px;
     display: block;
-    
 }
 .team-item-social{
     display: flex;
@@ -297,7 +288,6 @@ header .container{
     justify-content: center;
     align-items: center;
 }
-
 .team-icon:hover,
 .team-icon:focus{
     background-color: var(--accent-color);
@@ -369,7 +359,6 @@ header .container{
 .logo-first{
     color: #2196F3;
 }
-
 .footer-item:not(:last-child){
     margin-bottom: 9px;
 }
@@ -417,7 +406,6 @@ header .container{
     align-items: center;
     margin-right: 10px;
 }
-
 .footer-icon{
     fill: var(--secondary-text-color);
 }
