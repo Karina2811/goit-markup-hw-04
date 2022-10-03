@@ -133,6 +133,7 @@ header .container{
     text-align: center; 
     padding-top: 200px; 
     padding-bottom: 200px;
+    max-width: 1600px;
 }
 .hero-title{
     color: var(--secondary-text-color);
@@ -228,7 +229,7 @@ header .container{
     display: flex;
     gap: 30px;
 }
-.img{
+img{
     display: block;
 }
 
@@ -251,7 +252,7 @@ header .container{
     display: flex;
     gap: 30px;
 }
-.img{
+img{
     display: block;
 }
 .team-item{
@@ -504,7 +505,7 @@ header .container{
         0px 4px 4px rgba(0, 0, 0, 0.06),
         1px 4px 6px rgba(0, 0, 0, 0.16); 
 }
-.img {
+img {
     display: block;
 }
 .project-title-img{
